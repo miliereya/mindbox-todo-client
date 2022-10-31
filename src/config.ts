@@ -1,1 +1,1 @@
-export const SERVER_API = 'https://mindbox-todo-server.herokuapp.com/'
+export const SERVER_API = 'https://mindbox-todo-server.herokuapp.com'
