@@ -1,0 +1,80 @@
+.section {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 60px;
+    margin-bottom: 70px;
+    background-color: var(--color-secondary);
+}
+
+.auth_warning {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 26px;
+    color: var(--color-primary);
+}
+.filter_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    margin-top: 15px;
+    padding: 0 20px;
+}
+.filter {
+    width: 30%;
+    color: var(--color-primary);
+}
+.filter span{
+    color: var(--color-button);
+}
+.arrow_icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 4px;
+}
+.filter_popup {
+    position: absolute;
+    flex-direction: column;
+    color: var(--color-primary);
+    z-index: 5;
+    border: 2px solid var(--color-primary);
+}
+.filter_btn {
+    width: 100%;
+    padding: 5px;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
+.filter_btn:hover {
+    color: var(--color-button);
+}
+.clear_btn {
+    width: 33%;
+    color: var(--color-primary);
+    text-align: right;
+    text-transform: capitalize;
+}
+.clear_btn:hover {
+    color: var(--color-button);
+}
+.results {
+    width: 30%;
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.paggination_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.paggination_button {
+    width: 35px;
+    height: 35px;
+    margin: 5px 5px 5px 0;
+    border-radius: 3px;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+}

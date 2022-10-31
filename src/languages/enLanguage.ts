@@ -1,0 +1,30 @@
+import { ILanguage } from "./LanguageTemplate";
+
+export const enLanguage: ILanguage = {
+    registration_btn: 'Sign in',
+    swap_language_btn: 'ru',
+    logout: 'Logout',
+    user: 'User',
+    login: 'Login',
+    signup: 'Sign up',
+    password: 'Password',
+    registr_form: 'Sign in / up',
+    registr_warning: 'Sign in / up to continue!',
+    add: 'Add new task',
+    title: 'Title',
+    desc: 'Enter the description',
+    choose_status: 'Choose status',
+    status_done: 'done',
+    status_in_process: 'in process',
+    status_not_started_yet: 'not active',
+    choose_date: 'Choose date',
+    color: 'color',
+    add_button: 'add',
+    delete: 'delete',
+    date: 'date',
+    showing: 'Showing',
+    of: 'of',
+    tasks: 'tasks',
+    clear_completed: 'clear completed',
+    filter: 'Filter'
+}
